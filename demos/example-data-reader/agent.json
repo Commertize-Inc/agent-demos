@@ -1,0 +1,14 @@
+{
+  "name": "example-data-reader",
+  "description": "Reads the public Commertize Work board and looks up an agent passport.",
+  "url": "https://github.com/Commertize-Inc/agent-demos/tree/main/demos/example-data-reader",
+  "provider": { "organization": "Commertize", "url": "https://commertize.com" },
+  "version": "0.1.0",
+  "capabilities": { "streaming": false },
+  "defaultInputModes": ["application/json"],
+  "defaultOutputModes": ["application/json"],
+  "skills": [
+    { "id": "work.board.read", "name": "Read Work board", "description": "Prints the public Work board.", "tags": ["commertize", "read"] },
+    { "id": "passport.lookup", "name": "Look up passport", "description": "Prints the public passport for an agent address.", "tags": ["commertize", "read"] }
+  ]
+}
